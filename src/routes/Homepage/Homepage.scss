@@ -1,0 +1,56 @@
+.homepage {
+  width: 100vw;
+  max-width: 1440px;
+  display: flex;
+
+  .content {
+    padding: 30px;
+    background-color: #d6fff6;
+    width: 50%;
+    border-bottom-right-radius: 150px;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    > p {
+      margin-top: 10px;
+    }
+
+    .teach-stud {   
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 120px;
+        }
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      li {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 30px;
+        }
+
+        p {
+        }
+      }
+    }
+  }
+
+  img {
+    width: 50%;
+  }
+}

@@ -1,0 +1,58 @@
+.navigation {
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2374ab;
+  position: relative;
+  .logo {
+    width: 100px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    li {
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 1.2rem;
+      padding: 5px 15px 5px 15px;
+      text-shadow: 0 0 2px white;
+    }
+
+
+    li:last-child {
+      color: #231651;
+      border: 2px solid #231651;
+      text-shadow: none;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+  }
+
+ 
+
+  .redirect {
+    position: absolute;
+    top: 80px;
+    right: 135px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #2374ab;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    .teacher,
+    .student {
+      text-align: center;
+      img{
+        width: 50px;
+      }
+    }
+  }
+
+}

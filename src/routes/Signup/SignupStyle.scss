@@ -1,0 +1,48 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+  }
+
+  .email,
+  .password {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: large;
+    }
+
+    input {
+      margin-top: 5px;
+      width: 300px;
+      height: 30px;
+      padding: 0 10px 0 10px;
+      font-size: large;
+      border: 1px solid black;
+      outline-style: none;
+    }
+  }
+
+  .email {
+    margin-top: 30px;
+  }
+
+  .password {
+    margin-top: 20px;
+  }
+
+  .btn{
+    margin-top: 50px;
+    padding: 5px 20px 5px 20px;
+    font-size: large;
+    border-radius: 10px;
+    outline-style: none;
+    background-color: white;
+    border: 2px solid #2374AB;
+  }
+}
